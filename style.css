@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=DM+Serif+Text&family=Kaushan+Script&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=PT+Sans+Narrow:wght@700&family=Yanone+Kaffeesatz:wght@500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(245, 240, 240);
+    /* height: 200vh; */
+}
+
+.header{
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-top1{
+    background-color: #fcf6f6;
+    width: 100%;
+    height: 16vh;
+    padding: 26px;
+}
+
+.text-content{
+    display: flex;
+    align-items: center;
+}
+
+.para-text{
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.589);
+    font-weight: 500;
+    margin:  0px 4px;
+}
+
+.span-text{
+    padding: 0px 6px;
+}
+
+.icon-social{
+    color: rgb(224, 0, 0);
+    font-size: 25px;
+    padding: 0px 5px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.icon-social:hover{
+    color: rgb(117, 6, 6);
+
+}
+
+.nav-bar-container{
+    position: absolute;
+    top: 70px;
+    left: 52px;
+    width: 90%;
+    background-color: white;
+    padding: 16px 38px;
+    z-index: 55;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px rgb(142, 142, 142);
+}
+
+.heading-logo{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-family: 'Barriecito', cursive;
+}
+
+.heading-span{
+    color: rgb(233, 154, 8);
+    font-family: 'Barriecito', cursive;
+}
+
+.nav-item .nav-link{
+    color: rgba(8, 8, 8, 0.685);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-item .nav-link:hover{
+    color: rgba(255, 102, 0, 0.911);
+
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: rgba(255, 102, 0, 0.911);
+}
+
+#home-section{
+    width: 100%;
+    height: 84%;
+}
+
+.home-content{
+    width: 100%;
+    height: 80vh;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -55;
+}
+
+.img-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./Gallery/1.jpg);
+}
+
+.img-2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./Gallery/3.jpg);
+}
+
+.img-3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./Gallery/2.jpg);
+}
+
+.content-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.heading-home{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+.heading-lg-home{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.heading-ug-home .heading-span{
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.btn-home{
+    display: inline-block;
+    padding: 18px 38px;
+    background-color: rgb(209,95,2);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 28px 0px 0px 0px;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+
+}
+
+.btn-home:hover{
+    background-color: rgb(206, 172, 2);
+
+}
+
+.icon-angle{
+    color: #fff;
+    background-color: #212121;
+    border-color: #212121;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.selection{
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(255, 250, 250);
+    position: absolute;
+    bottom: -80px;
+    left: 52px;
+    padding: 0px 26px;
+    box-shadow: 1px 1px 12px rgb(142, 142, 142);
+    border-radius: 20px;
+}
+
+.selection_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.boxes{
+    padding: 14px 20px;
+    width: 180px;
+    margin: 0px 10px;
+    outline: none;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.select-btn{
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: rgb(209, 95, 2);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 10px;
+    transition: 0.3s ease-in;
+}
+
+.select-btn:hover{
+    background-color: rgb(206, 172, 2);
+}
+
+#about{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.heading_about{
+    color: #000;
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Barriecito', cursive;
+}
+
+.para_about_details{
+    display: block;
+    color: #0e0f10;
+    font-size: 19px;
+    line-height: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+.about-us-content{
+    margin-top: 50px;
+}
+
+.image-about{
+    width: 100%;
+}
+
+.img-content{
+    width: 100%;
+    height: 100% !important;
+}
+
+.para-content-about{
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.text_center{
+
+    font-family: 'Barriecito', cursive;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 9px gray;
+}
+
+.card-img-top:hover{
+    cursor: pointer;
+}
+
+#service1{
+    background-image: url(./Gallery/13.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service-head{
+    font-family: 'Barriecito', cursive;
+}
+
+.service-para{ 
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: 'Acme', sans-serif;
+}
+
+.rev-list{
+    display: flex;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.revs-img{
+    width: 330px;
+    height: 400px;
+    background-color:#052d48;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float: left;
+    margin: 10px;
+}
+
+.revs-img h3{
+font-weight: bold;
+color: white;
+}
+
+.revs-img p{
+    font-family: 'Preahvihear', sans-serif;
+    font-size: small; 
+    margin-top: 10px;
+    color: white;
+}
+
+.revs-img img{
+    width: 30%;
+    border-radius: 25px;
+}
+    
+.revs-img:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 14px rgb(233, 154, 8);
+}   
+
+#package{
+    margin-top: 5rem;
+}
+
+.card{
+    overflow: hidden;
+}
+.card-img-top:hover{
+ scale: 1.1;
+}
+
+.card-title{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.card-text{
+    font-family: 'Acme', sans-serif;
+}
+
+.card-bottom{
+    font-family: 'Kaushan Script', cursive;
+}
+
+#service2{
+    background-image: url(./Gallery/f1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer{
+    background-color: rgb(132, 134, 136);
+    margin-top: 1rem;
+    
+}
+
+.text_center1{
+    font-family: 'Barriecito', cursive;
+
+}
+
+.foot-icons i{
+    border-radius: 50px;
+    color: #000;
+}
+.foot-icons i:hover{
+    background-image: linear-gradient(to bottom right,yellow,red);
+
+}
+
+.foot-icons i:hover{
+    color: white;
+    animation: shake 0.75s;
+}
+
+@keyframes shake{
+   
+    10%{
+        transform: rotate(15deg);
+    }
+
+    20%{
+        transform: rotate(-15deg);
+    }
+
+    3%{
+        transform: rotate(15deg);
+    }
+
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+.foot-link{
+    text-decoration: none;
+}
+

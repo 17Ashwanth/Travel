@@ -1,0 +1,141 @@
+@media (max-width:1500px){
+    .boxes{
+        padding: 14px 20px;
+        width: 212px;
+        margin: 0px 10px;
+        outline: none;
+        font-family: 'Kaushan Script', cursive;
+    
+    }
+    
+    .nav-bar-container{
+        position: absolute;
+        top: 58px;
+        left: 52px;
+        width: 90%;
+        background-color: white;
+        padding: 16px 38px;
+        z-index: 55;
+        border-radius: 20px;
+        box-shadow: 1px 1px 12px rgb(142, 142, 142);
+    }
+
+
+    .para-content-about{
+        font-size: 14px;
+        text-align: center;
+        line-height: 29px;
+        
+        font-family: 'Kaushan Script', cursive;
+    }
+}
+
+@media (max-width:1130px){
+    .heading-lg-home{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 50px;
+       line-height: 72px;
+    }
+    
+}
+@media (max-width:1079px){
+    .nav-bar-container{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: white;
+        padding: 16px 38px;
+        z-index: 55;
+        border-radius: 20px;
+        box-shadow: 1px 1px 12px rgb(142, 142, 142);
+    }
+
+    .navbar-nav{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item{
+        margin: 3px 0px;
+    }
+
+    .heading-lg-home{
+        font-size: 52px;
+        line-height: 80px;
+    }
+
+    .selection{
+        width: 350px;
+        height:50vh;
+        background-color: rgb(255, 250, 250);
+        position: static;
+        padding: 0px 26px;
+        box-shadow: 1px 1px 12px rgb(142, 142, 142);
+        border-radius: 20px;
+        margin: 84px auto;
+    }
+
+    .selection_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .boxes{
+        padding: 14px 20px;
+        width: 100%;
+        margin: 10px 0px;
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.489);
+        font-family: 'Kaushan Script', cursive;
+    
+    }
+
+    .select-btn{
+        margin: 10px 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    
+    
+}
+@media (max-width:992px){
+    .image-about{
+        width: 100%;
+    }
+}
+
+@media(max-width:300px){
+    .selection{
+        width: 280px;
+        height: 70vh;
+        background-color: rgb(255, 250, 250);
+        position: static;
+        padding: 0px 26px;
+        box-shadow: 1px 1px 12px rgb(142, 142, 142);
+        border-radius: 20px;
+        margin: 84px auto;
+    }
+    .nav-bar-top1{
+        width: 280px;
+    }
+
+    .para-text{
+        width:20px
+    }
+    .heading-lg-home{
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+
+}
+
+
